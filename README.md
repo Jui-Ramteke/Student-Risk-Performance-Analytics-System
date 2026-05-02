@@ -165,6 +165,7 @@ Explains model predictions using SHAP feature importance.
 
 Shows relationship between study hours and performance.
 
+---
 
 📈 Results
 
