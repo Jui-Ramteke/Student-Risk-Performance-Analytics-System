@@ -1,19 +1,19 @@
 # ⚡ Student Risk & Performance Analytics System
 
-An AI-powered system designed to predict student performance, identify at-risk students, and provide actionable insights using machine learning and data analytics.
+An AI-powered system that predicts student performance, identifies at-risk students, and provides actionable insights using machine learning and analytics.
 
 ---
 
 ## 📌 Overview
 
-This project is a complete **end-to-end Machine Learning + Analytics platform** that helps educational institutions:
+This project is an **end-to-end Machine Learning + Analytics platform** designed to:
 
 - Predict student performance
 - Identify at-risk students early
-- Provide explainable insights
-- Enable data-driven decision making
+- Provide explainable insights (SHAP)
+- Enable data-driven decision-making
 
-It combines **ML models, explainable AI (SHAP), and interactive dashboards** to simulate real-world EdTech systems.
+It simulates real-world **EdTech analytics systems** used in industry.
 
 ---
 
@@ -22,25 +22,23 @@ It combines **ML models, explainable AI (SHAP), and interactive dashboards** to 
 Educational institutions often struggle to:
 
 - Identify weak students early
-- Understand factors affecting performance
+- Understand performance drivers
 - Take timely intervention actions
-- Analyze large-scale student data effectively
+- Analyze large-scale student data
 
-This system solves these challenges using **predictive analytics and AI-driven insights**.
+This system solves these using **predictive analytics + AI insights**.
 
 ---
 
 ## 🌍 Industry Relevance
 
-This project reflects real-world applications used by:
+Used in:
 
 - EdTech platforms (Coursera, Byju’s, Udemy)
 - Schools & universities
-- Learning management systems (LMS)
-- Academic analytics tools
+- Learning Management Systems (LMS)
 
-Use cases:
-
+### Use Cases:
 - Dropout prediction
 - Personalized learning
 - Student engagement analysis
@@ -60,28 +58,23 @@ Use cases:
 - Matplotlib
 
 **Frontend**
-- Streamlit (Dashboard UI)
+- Streamlit
 
 **Other**
-- Joblib (model saving)
+- Joblib
 - Git & GitHub
 
 ---
 
 ## 🏗️ Architecture
 
-**Flow:**
-1. Data ingestion (CSV)
-2. Schema validation
-3. Feature engineering
-4. Model prediction (LogReg / RF)
-5. Risk scoring
-6. SHAP explainability
-7. Visualization in dashboard
+Data → Validation → Feature Engineering → Model → Prediction → Explainability → Dashboard
+
 
 ---
 
 ## 📂 Folder Structure
+
 Student-Risk-Performance-Analytics-System/
 │
 ├── data/
@@ -123,128 +116,117 @@ venv\Scripts\activate   # Windows
 
 pip install -r requirements.txt
 
-▶️ How to Run
-
 streamlit run app.py
-
-Then open in browser:
 
 http://localhost:8501
 
 ## 📊 Dashboard Screenshots
 
 ### 🔹 1. Main Dashboard Overview
-![Dashboard](images/1.png)
+<p align="center">
+  <img src="./images/1.png" width="90%">
+</p>
 
-This is the main interface of the system showing key KPIs:
-- Total students
-- Number of at-risk students
-- Risk percentage
-- Average performance score  
-It provides a quick high-level summary for decision-making.
+Displays key KPIs like total students, at-risk students, risk %, and average score.
 
 ---
 
 ### 🔹 2. Risk Trend Analysis
-![Trends](images/2.png)
+<p align="center">
+  <img src="./images/2.png" width="90%">
+</p>
 
-Displays how student risk changes over time.  
-Helps in identifying patterns such as increasing risk trends or unstable performance behavior.
-
----
-
-### 🔹 3. Model Performance Metrics
-![Performance](images/3.png)
-
-Shows evaluation metrics of the model:
-- ROC-AUC
-- F1 Score
-- Brier Score  
-
-These metrics validate the reliability and effectiveness of the prediction system.
+Shows how student risk changes over time.
 
 ---
 
-### 🔹 4. Explainability (SHAP Analysis)
-![Explainability](images/4.png)
+### 🔹 3. Model Performance
+<p align="center">
+  <img src="./images/3.png" width="90%">
+</p>
 
-Visualizes feature importance using SHAP:
-- Highlights which factors influence predictions
-- Helps understand why a student is classified as at-risk  
-
-This is critical for building trust in ML systems.
+Displays evaluation metrics such as ROC-AUC, F1 Score, and Brier Score.
 
 ---
 
-### 🔹 5. Feature Relationship Analysis
-![Insights](images/5.png)
+### 🔹 4. Explainability (SHAP)
+<p align="center">
+  <img src="./images/4.png" width="90%">
+</p>
 
-Scatter plot showing relationship between study hours and performance.  
-Reveals strong correlation patterns and supports data-driven insights.
+Explains model predictions using SHAP feature importance.
 
 ---
+
+### 🔹 5. Feature Insights
+<p align="center">
+  <img src="./images/5.png" width="90%">
+</p>
+
+Shows relationship between study hours and performance.
+
 
 📈 Results
 
-* Accurate prediction of student risk levels
+Accurate student risk prediction
 
-* Identification of key performance drivers
+Identification of key performance drivers
 
-* Real-time analytics dashboard
+Real-time analytics dashboard
 
-* Explainable AI insights using SHAP
+Explainable AI insights (SHAP)
 
-*Evaluation metrics:
+Evaluation Metrics:
 
-  * ROC-AUC
-  * F1 Score
-  * Brier Score
+ROC-AUC
+
+F1 Score
+
+Brier Score
+
 
 🎯 Key Features
 
-✅ Student risk prediction
+* Student risk prediction
 
-✅ Multi-model system (LogReg, RF)
+* Multi-model system (LogReg, RF)
 
-✅ Feature engineering pipeline
+* Feature engineering pipeline
 
-✅ Batch + single prediction
+* Batch + single prediction
 
-✅ SHAP explainability
+* SHAP explainability
 
-✅ Drift detection
+* Drift detection
 
-✅ Advisor panel (high-risk students)
+* Advisor panel
 
-✅ Search & filtering
+* Search & filtering
 
-✅ Interactive dashboard
+* Interactive dashboard
 
 
 📚 Learning Outcomes
 
-Through this project, I learned:
+* End-to-end ML pipeline development
 
-* End-to-end ML pipeline design
-
-* Feature engineering techniques
+* Feature engineering
 
 * Model evaluation & validation
 
-* Explainable AI using SHAP
+* Explainable AI (SHAP)
 
-* Dashboard development using Streamlit
+* Dashboard development (Streamlit)
 
-* Handling real-world ML issues (feature mismatch, drift)
+* Handling real-world ML issues
 
-* Building industry-oriented projects
 
-👨‍💻 Author Jui Ramteke
+👨‍💻 Author
+
+Jui Ramteke
 
 Email: juiramteke20@gmail.com
 
 GitHub: https://github.com/Jui-Ramteke
 
 LinkedIn: https://www.linkedin.com/in/jui-ramteke/
-
-Instagram: https://www.instagram.com/jui_ramteke_/
