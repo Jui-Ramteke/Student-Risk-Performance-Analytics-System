@@ -155,7 +155,7 @@ By building this project, I demonstrated and strengthened the following skills:
 
 ### 🔹 1. Main Dashboard & Interactive Prediction
 <p align="center">
-  <img src="./images/1.jpg" width="90%">
+  <img src="./images/1.png" width="90%">
 </p>
 **Overview:** The primary interface featuring top-level KPIs (Total Students, At-Risk count, Risk Percentage, and Average Score). The central area displays risk trends and a detailed data table of student metrics. The right sidebar includes interactive sliders for running single-student predictions and a drag-and-drop CSV uploader for batch processing.
 
@@ -163,7 +163,7 @@ By building this project, I demonstrated and strengthened the following skills:
 
 ### 🔹 2. Prediction Results & Risk Assessment
 <p align="center">
-  <img src="./images/2.jpg" width="90%">
+  <img src="./images/2.png" width="90%">
 </p>
 **Actionable Insights:** Showcases the result of a single student prediction. In this example, the model flags a "MEDIUM RISK" with a probability score of 0.55. It provides a visual breakdown of the contributing factors and a dedicated section for automated recommendations to assist academic advisors.
 
